@@ -1,0 +1,20 @@
+body {
+	margin: 0;
+    background: rgb(242, 255, 171);
+}
+header{
+    background: pink;
+    text-align: center;
+}
+main{
+    display:flex;
+}
+main > img{
+    width: 240px;
+    height:300px;
+}
+footer{
+    font-size: 10px;
+    margin-top: 200px;
+    text-align: center;
+}

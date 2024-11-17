@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+    background: rgb(242, 255, 171);
+}
+.container{
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container img{
+    box-sizing: border-box;
+    width: 200px;
+    border: 5px solid black;
+    -webkit-box-shadow: 15px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 15px 14px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 15px 14px 8px 0px rgba(34, 60, 80, 0.2);
+}
+.container > div{
+    margin-right: 30px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.container > div:last-child{
+    margin-right: 0;
+}
+.one{
+    background: palevioletred;
+}
+.two{
+    background: rgb(112, 195, 216);
+}
+.three{
+    background: rgb(112, 216, 135);
+}
+p{
+    text-align: left;
+    padding: 0 20px;
+}
